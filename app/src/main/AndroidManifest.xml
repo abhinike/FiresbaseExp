@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firebaseexp">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBLBvbky0U8NtjFK-KL3jIPpcRGpo1AE_4"/>
         </activity>
+
     </application>
+
+
 
 </manifest>
